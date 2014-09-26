@@ -96,37 +96,37 @@ void main()
 		totalPatients = totalPatients + 1;
 
 		if (stayStatus == 'H')
-		{
+		
 			totalHospitalized = totalHospitalized + 1;
-		}
+		
 		else
-		{
+		
 			totalReleased = totalReleased + 1;
-		}
+		
 		if (gender == 'M')
-		{
+		
 			totalMale = totalMale + 1;
-		}
+		
 		else
-		{
+		
 			totalFemale = totalFemale + 1;
-		}
+		
 		if (age >= 40)
-		{
+		
 			total40Plus = total40Plus + 1;
-		}
+		
 		else
-		{
+		
 			totalUnder40 = totalUnder40 + 1;
-		}
+		
 		if (stayStatus == 'H')
-		{
+		
 			totalHStay = totalHStay + stayLength;
-		}
+		
 		else
-		{
+		
 			totalRStay = totalRStay + stayLength;
-		}
+		
 		
 		cout << endl << endl;
 		cout << "Survey # " << totalPatients + 1 << endl;
