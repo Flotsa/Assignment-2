@@ -99,7 +99,7 @@ void main()
 		{
 			totalHospitalized = totalHospitalized + 1;
 		}
-		if (stayStatus == 'R')
+		else
 		{
 			totalReleased = totalReleased + 1;
 		}
@@ -107,7 +107,7 @@ void main()
 		{
 			totalMale = totalMale + 1;
 		}
-		if (gender == 'F')
+		else
 		{
 			totalFemale = totalFemale + 1;
 		}
@@ -115,7 +115,7 @@ void main()
 		{
 			total40Plus = total40Plus + 1;
 		}
-		if (age < 40)
+		else
 		{
 			totalUnder40 = totalUnder40 + 1;
 		}
@@ -123,7 +123,7 @@ void main()
 		{
 			totalHStay = totalHStay + stayLength;
 		}
-		if (stayStatus == 'R')
+		else
 		{
 			totalRStay = totalRStay + stayLength;
 		}
