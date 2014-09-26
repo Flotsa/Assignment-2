@@ -170,7 +170,7 @@ void main()
 		{
 			cout << "N/A" << endl;
 		}
-		if (totalReleased)
+		if (totalReleased > 0)
 		{
 			averageRStay = (double)totalRStay / totalReleased;
 			cout << "Average length of stay of released patients:    " << averageRStay << endl;
